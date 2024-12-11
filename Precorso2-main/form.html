@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Musica</title>
+</head>
+<body>
+    <h1>Registrati alla nostra app di musica!</h1>
+    <h2>Compila il form sottostante</h2>
+    <form onsubmit="alert('Registrazione Completata')">
+        <div>
+            <input type="reset" value="Cancella dati inseriti">
+        </div><br>
+        <div>
+            <label for="name">Inserisci il tuo Nome:</label><br>
+            <input type="text" placeholder="Nome" id="name">    
+        </div><br>
+        <div>
+            <label for="cognome">Inserisci il tuo Cognome:</label><br>
+            <input type="text" placeholder="Cognome" id="cognome">    
+        </div><br>
+        <div>
+            <label for="email">Inserisci il tuo indirizzo Email:</label><br>
+            <input type="email" placeholder="Email" id="email">    
+        </div><br>
+        <div>
+            <label for="pass">Crea una password:</label><br>
+            <input type="password" placeholder="Password" id="pass">    
+        </div><br>
+        <div>
+            <label for="data">Inserisci la tua Data di Nascita:</label><br>
+            <input type="date" placeholder="Data" id="data">    
+        </div><br>
+        <div>
+            <label for="tel">Inserisci il tuo Numero di Telefono:</label><br>
+            <input type="number" placeholder="Telefono" id="tel">    
+        </div>
+        <p>Seleziona le tue preferenze musicali:</p>
+        <div>
+            <input type="checkbox" id="rock" name="rock">
+            <label for="rock">Rock</label>    
+        </div>
+        <div>
+            <input type="checkbox" id="pop" name="pop">
+            <label for="pop">POP</label>
+        </div>
+        <div>
+            <input type="checkbox" id="classic" name="classic">
+            <label for="classic">Musica Classica</label>
+        </div><br>
+        <div>
+            <input type="radio" id="termini">
+            <label for="termini">Dichiaro di aver preso visione dei termini e condizioni</label>    
+        </div><br>
+        <button type="submit">Registrati</button>
+    </form>
+</body>
+</html>
